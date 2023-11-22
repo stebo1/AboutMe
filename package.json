@@ -1,44 +1,48 @@
 {
-  "title": "Resume",
-  "name": "startbootstrap-resume",
-  "version": "4.0.0-beta.2",
-  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "title": "Business Casual",
+  "name": "startbootstrap-business-casual",
+  "version": "5.0.9",
+  
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch"
+},
+  "description": "A casual HTML website theme for businesses built with Bootstrap",
   "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
+      "css",
+      "sass",
+      "html",
+      "responsive",
+      "theme",
+      "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/resume",
+  "homepage": "https://startbootstrap.com/template-overviews/business-casual",
   "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-    "email": "feedback@startbootstrap.com"
+      "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual/issues",
+      "email": "feedback@startbootstrap.com"
   },
   "license": "MIT",
   "author": "Start Bootstrap",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+      "David Miller (http://davidmiller.io/)"
   ],
   "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+      "type": "git",
+      "url": "https://github.com/BlackrockDigital/startbootstrap-business-casual.git"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta.2",
-    "devicons": "^1.8.0",
-    "jquery": "^3.2.1",
-    "popper.js": "^1.12.6",
-    "simple-line-icons": "^2.4.1"
+      "bootstrap": "4.3.1",
+      "jquery": "^3.5.1"
   },
   "devDependencies": {
-    "browser-sync": "2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "3.9.0",
-    "gulp-header": "1.8.9",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "3.0.0"
+      "browser-sync": "2.26.7",
+      "del": "5.1.0",
+      "gulp": "4.0.2",
+      "gulp-autoprefixer": "7.0.0",
+      "gulp-clean-css": "4.2.0",
+      "gulp-header": "2.0.9",
+      "gulp-plumber": "^1.2.1",
+      "gulp-rename": "1.4.0",
+      "gulp-sass": "4.0.2",
+      "merge-stream": "2.0.0"
   }
 }
